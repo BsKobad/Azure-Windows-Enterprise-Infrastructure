@@ -1,6 +1,6 @@
-#  Azure-Hosted Windows Enterprise Infrastructure 
+# Azure Windows Enterprise Infrastructure
 
->**Enterprise Windows Infrastructure Deployment | Microsoft Azure | Hyper-V | Active Directory | Windows Deployment Services | Group Policy**
+**Enterprise Windows infrastructure deployed on Microsoft Azure using Hyper-V, Active Directory Domain Services (AD DS), DNS, DHCP, Windows Deployment Services (WDS), Group Policy and Windows PowerShell.**
 
 ##  Executive Summary
 
@@ -12,7 +12,7 @@ The completed environment demonstrates the deployment of a fully functional Wind
 
 ---
 
-# Business Scenario
+## Business Scenario
 
 A growing organisation required a centralized Windows infrastructure capable of supporting user authentication, workstation deployment, network services and security policy enforcement.
 
@@ -50,7 +50,7 @@ The project was completed to achieve the following objectives:
 - Validated the completed infrastructure using PowerShell.
 
 
-# Solution Architecture
+## Solution Architecture
 
 The environment consists of a Microsoft Azure virtual machine hosting a nested Hyper-V infrastructure.
 
@@ -73,109 +73,133 @@ The deployment includes:
 
 A detailed architecture diagram will be included in a later revision.*
 
-# Enterprise Environment 
+## Enterprise Environment 
 
 Component                                     Description 
-Microsoft Azure                        Cloud platform hosting the Windows Server environment 
-Hyper-V                                Nested virtualization platform
-DC01                                   Enterprise Domain Controller
-Wkstn01                                Enterprise Windows workstation
-Active Directory                       Centralized identity management
-DNS                                    Name resolution
-DHCP                                   Automatic IP address allocation 
-WDS                                    PXE operating system deployment
-Group Policy                           Enterprise policy management 
-WinRM                                  Remote administration
-RSAT                                   Remote management tools
+**Microsoft Azure**                           Cloud platform hosting the Windows Server environment 
+**Windows Server 2022**                       Azure Hosted Virtual Machine running the enterprise Infrastructure
+**Hyper-V**                                   Nested virtualization platform
+**DC01**                                      Enterprise Domain Controller
+**Wkstn01**                                   Enterprise Windows workstation
+**Active Directory**                          Centralized identity management
+**DNS**                                       Name resolution
+**DHCP**                                      Automatic IP address allocation 
+**WDS**                                       PXE operating system deployment
+**Group Policy**                              Enterprise policy management 
+**WinRM**                                     Remote administration
+**RSAT**                                      Remote management tools
 
 
-#  Technologies Used:
+## Technologies Used:
 
-Microsoft Azure 
-Windows Server
-Windows 10
-Windows 11
-Hyper-V 
-Active Directory Domain Services (AD DS)
-Domain Name System (DNS)
-Dynamic Host Configuration Protocol 
-Windows Deployment Service (WDS)
-Group Policy Management
-Remote Server Administration tools (RSAT)
-Windows Remote Management (WinRM)
-Windows Power Shell
-Windows firewall
-NTFS permissions
-Encrypting File System (EFS)
+The following technologies were used throughout the deployment and administration of the enterprise environment.
 
-#  Skills Demonstrated 
-
-## Cloud Infrastructure
-
-- Microsoft Azure Virtual Machines
-- Infrastructure Deployment
-- Virtual Network Configuration
-
-## Windows Server Administration
-
-- Windows Server Administration
-- Hyper-V Virtualization
-- Active Directory Administration
-- DNS Administration
-- DHCP Administration
-- Windows Deployment Services
-
-## Enterprise Networking
-
-- Virtual Switching
-- IP Address Management
-- PXE Network Deployment
-- Domain Integration
-
-## Identity and Access Management
-
-- Active Directory Users and Computers
-- Organizational Units
-- Security Groups
-- Authentication
-- Authorization
-
-## Enterprise Security
-
+### Cloud Platform
+- Microsoft Azure
+### Operating System 
+- Windows Server 2022
+- Windows 10
+- Windows 11 
+### Virtualisation
+- Hyper-V
+### identity and Access Management
+- Active Directory Domain Services (AD DS)
 - Group Policy
-- Password Policies
-- Windows Firewall
-- NTFS Permissions
-- Share Permissions
-- Encrypting File System
 
-## Automation and Administration
+### Network Services
+- Domain Name System (DNS)
+- Dynamic Host Configuration Protocol (DHCP)
+- Windows Deployment Services (WDS)
+
+### Administration 
 
 - Windows PowerShell
-- WinRM
-- RSAT
-- Enterprise Validation
+- Remote Server Administration Tools (RSAT)
+- Windows Remote Management (WinRM)
+
+### Security
+
+- Windows Firewall
+- NTFS Permissions
+- Encrypting File System (EFS)
+
+##  Skills Demonstrated 
+
+The project demonstrates practical skills across cloud infrastructure, Windows Server administration, enterprise networking and security.
+
+### Cloud Infrastructure
+
+- Microsoft Azure virtual machine deployment
+- Cloud-hosted infrastructure administration
+- Virtual network configuration
+
+### Windows Server Administration
+
+- Windows Server 2022 administration
+- Hyper-V virtualisation
+- Active Directory Domain Services (AD DS)
+- Domain administration
+
+### Enterprise Networking
+
+- DNS configuration and management
+- DHCP configuration and scope management
+- PXE network deployment using Windows Deployment Services (WDS)
+- Virtual switch configuration
+
+### Identity and Access Management
+
+- User and group administration
+- Organisational Unit (OU) management
+- Computer account management
+- Group Policy administration
+
+### Security Administration
+
+- Password policy configuration
+- Windows Firewall configuration
+- NTFS and Share permissions
+- Encrypting File System (EFS)
+
+### System Administration
+
+- Windows PowerShell
+- Windows Remote Management (WinRM)
+- Remote Server Administration Tools (RSAT)
+- Infrastructure validation and troubleshooting
  
 
-# Technical Deliverables
+## Project Deliverables
 
-The completed infrastructure includes:
+The completed project delivered a fully functional Windows enterprise environment hosted on Microsoft Azure with the following capabilities:
 
-- Azure-hosted Windows Server environment
-- Nested Hyper-V deployment
-- Enterprise Active Directory domain
-- DNS infrastructure
-- DHCP infrastructure
-- Windows Deployment Services
-- Windows 10 PXE deployment
-- Windows 11 upgrade
-- Enterprise workstation domain integration
-- Organizational Unit administration
+- Enterprise Windows Server environment hosted in Microsoft Azure
+- Nested Hyper-V virtualisation platform
+- Active Directory Domain Services (AD DS)
+- Domain Name System (DNS)
+- Dynamic Host Configuration Protocol (DHCP)
+- Windows Deployment Services (WDS)
+- Windows 10 deployment using PXE boot
+- Windows 11 workstation upgrade
+- Domain-joined client workstation
+- Organisational Unit (OU) structure
+- User, group and computer account management
 - Group Policy implementation
-- Secure file sharing
-- Enterprise firewall configuration
-- Remote administration
-- PowerShell validation
+- Secure file sharing with Share and NTFS permissions
+- Encrypting File System (EFS)
+- Windows Firewall configuration
+- Windows Remote Management (WinRM)
+- PowerShell validation of deployed services
+
+## Project Status
+
+**Status:** Completed
+
+This repository documents the successful deployment of a Windows enterprise infrastructure hosted on Microsoft Azure.
+
+The project demonstrates the end-to-end implementation of core Windows Server technologies, including Active Directory Domain Services, DNS, DHCP, Windows Deployment Services, Group Policy and enterprise security features. It serves as a practical showcase of cloud-hosted Windows infrastructure administration and reflects the skills developed through hands-on implementation rather than theoretical study.
+
+Future updates to this repository will focus on improving the documentation with architecture diagrams, deployment screenshots and validation evidence while keeping the technical implementation unchanged.
 
 
 
