@@ -2,6 +2,27 @@
 
 **Enterprise Windows infrastructure deployed on Microsoft Azure using Hyper-V, Active Directory Domain Services (AD DS), DNS, DHCP, Windows Deployment Services (WDS), Group Policy and Windows PowerShell.**
 
+---
+
+## Table of Contents
+
+- [Executive Summary](#executive-summary)
+- [Business Scenario](#business-scenario)
+- [Project Objectives](#project-objectives)
+- [Solution Architecture](#solution-architecture)
+- [Enterprise Environment](#enterprise-environment)
+- [Technologies Used](#technologies-used)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Project Deliverables](#project-deliverables)
+- [Implementation](#implementation)
+- [Validation and Testing](#validation-and-testing)
+- [Challenges and Resolutions](#challenges-and-resolutions)
+- [Lessons Learned](#lessons-learned)
+- [Future Improvements](#future-improvements)
+- [Project Status](#project-status)
+
+---
+
 ##  Executive Summary
 
 This repository documents the successful design, deployment and validation of a Windows-based enterprise infrastructure hosted on Microsoft Azure.
@@ -167,6 +188,12 @@ The project demonstrates practical skills across cloud infrastructure, Windows S
 - Windows Remote Management (WinRM)
 - Remote Server Administration Tools (RSAT)
 - Infrastructure validation and troubleshooting
+
+## Infrastructure Deployment
+
+The environment was deployed using a phased approach, with each service configured and tested before moving to the next stage. This ensured that dependencies such as Active Directory, DNS, DHCP and Windows Deployment Services were operating correctly before the client workstation was deployed and joined to the domain.
+
+The deployment process is summarised below.
  
 
 ## Project Deliverables
